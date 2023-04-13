@@ -1,0 +1,50 @@
+.menu {
+    background-color: #232F3E;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.amazon_img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu__Link {
+    color: #ffff;
+    text-decoration: none;
+    
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+ .menu_name {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+ .Sticker > .menu_name {
+    
+    font-size: 25px;
+ }   
+    @media screen and (max-width: 425px) {
+        .menu_name {
+            font-size: 8px;
+        }
+
+        .amazon_img {
+            width: 20px;
+            height: 20px;
+        }
+    }   

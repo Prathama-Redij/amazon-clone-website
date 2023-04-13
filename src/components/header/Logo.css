@@ -1,0 +1,27 @@
+.header__logo {
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 18px;
+    
+    object-fit: contain;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+}
+/* .logo:hover {
+    border: 1px solid #fff;
+} */
+
+
+@media screen and (max-width: 425px) {
+    .header__logo {
+        width: 50px;
+    }    
+    /* .amazon_logo {
+        width: 80px;
+    } */
+
+   }

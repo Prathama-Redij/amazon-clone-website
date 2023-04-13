@@ -1,0 +1,34 @@
+.header__seach {
+    display: flex;
+    flex: 1;
+}
+
+
+.header__searchinput {
+    height: 16px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    /* height: 100%; */
+}
+.header__searchIcon {
+    padding: 5px;
+    /* /height: 20px !important; */
+    background-color: #F3A847;
+}
+
+.search__select {
+    width: 44px;
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 3px;
+    border: 1px solid #F3A847 ;
+}
+
+@media screen and (max-width: 425px) {
+    .search__select {
+        width: 39px;
+        font-size: 12px;
+    }
+}

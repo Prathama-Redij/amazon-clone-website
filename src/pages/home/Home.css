@@ -1,0 +1,38 @@
+.home {
+    height: 2000px;
+    /* background-color: #fff; */
+}
+.img__banner {
+    width: 100%;
+    /* mask-image: linear-gradient(to bottom, rgb(99, 11, 150), rgba(0, 0, 0, 0)); */
+    opacity: 1;
+    z-index: -1;
+    margin-bottom: -300px;
+    
+    
+}
+
+.Slider__banner { 
+    
+mask-image: linear-gradient(-180deg, rgb(7, 0, 7), rgba(138, 3, 97, 0));
+    width: 100%;
+}
+
+.h-banner__control {
+    margin-bottom: 300px;
+    color: #fff;
+}
+
+.home__row {
+    display: flex;
+    z-index: -1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 425px) {
+    .h-banner__control {
+        margin-top: 230px;
+        height: 10px;
+    }
+}

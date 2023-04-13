@@ -1,0 +1,9 @@
+.country__Icon {
+    width: 1px;
+    height: 1px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}

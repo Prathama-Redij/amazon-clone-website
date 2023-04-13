@@ -1,0 +1,49 @@
+.header__Link {
+    margin: 10px 10px 10px 10px;
+    color: #ffff;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    color: #ffff;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.header__optionLineone {
+    font-size: 11px;
+}
+
+.header__optionLinetwo {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+
+@media screen and (max-width: 425px) {
+.header__Link {
+    margin-left: 1px;
+}
+
+.header__option {
+    margin: 7px 7px 7px 7px;
+}
+  
+    .header__optionLineone  {
+        font-size: 9px;
+        }
+
+        .header__optionLinetwo {
+            font-size: 10px;
+        }    
+  }
+ 

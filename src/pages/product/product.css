@@ -1,0 +1,140 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+   
+    height: 800px;
+    width: 100%;
+   
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(134, 4, 4);
+}
+
+.card {
+    display: flex ;
+    flex-direction: column;
+    align-items:first baseline;
+    justify-content: center;
+    width: 410px;
+    height: 650px;
+    margin: 10px auto;
+    padding:  1px;
+    background-color: #fff;
+    
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: #fff;
+    width: 300px;
+    height: 400px;
+    margin: 70px;
+    padding: 60px; */
+    /* align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    max-height: 500px;
+    min-width: 10px;
+    background-color: white;
+    z-index: -1; */
+
+}
+
+.product_name {
+    margin: 30px 10px;
+    text-align: left;
+    /* padding: 5px 5px; */
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.product__price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.product_info {
+   
+    margin-bottom: 1px;
+   
+}
+
+.productinfo_group {
+    margin-bottom: 10px;
+}
+.ratings {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.product_img {
+    margin:  auto;
+    /* margin-bottom: -20px; */
+    max-height: 280px;
+    width: 100%;
+    object-fit: contain;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+.product_button {
+    margin: 90px 80px;
+    background-color: #F7CA00;
+    width: 250px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width: 425px){
+    .product {
+        margin-top: 230px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card {
+        margin: 5px auto;
+        width: 300px;
+        height: 415px;
+    }
+
+    .product_name {
+        margin: 10px 10px;
+        padding-top: 10px;
+        font-size: 10px;
+        
+    }
+
+    .product__price {
+        font-size: 15px;
+    }
+    .product_img {
+        margin-left: 80px;
+        margin-right: 50px;
+
+        width: 50%;
+    }
+
+    .product_button {
+        width: 200px;
+        height: 25px;
+        margin: 50px 50px;
+    }
+}
